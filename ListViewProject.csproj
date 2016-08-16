@@ -72,6 +72,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="bin\Debug\ListViewProject.exe.config" />
+    <None Include="bin\Debug\ListViewProject.vshost.exe.config" />
+    <None Include="bin\Debug\ListViewProject.vshost.exe.manifest" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -84,6 +87,20 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\ListViewProject.exe" />
+    <Content Include="bin\Debug\ListViewProject.pdb" />
+    <Content Include="bin\Debug\ListViewProject.vshost.exe" />
+    <Content Include="bin\Debug\ObjectListView.dll" />
+    <Content Include="bin\Debug\ObjectListView.pdb" />
+    <Content Include="bin\Debug\ObjectListView.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
